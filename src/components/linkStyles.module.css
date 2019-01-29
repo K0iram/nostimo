@@ -1,0 +1,37 @@
+.links {
+  text-decoration: none;
+  color: #222;
+  font-family: monospace;
+  font-weight: 600;
+  margin: 0 .618em;
+  padding: .618em 0;
+}
+
+.navLinks {
+  margin: -.618em -.618em;
+}
+
+.linksLeft {
+  width: 200px;
+}
+
+.linksRight {
+  width: 200px;
+  text-align: right;
+}
+
+.navigation {
+  padding-top: 40px;
+  margin: 0 auto;
+  padding: 2.45rem 2.0875rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.siteTitle {
+  color: #333;
+  font-weight: 200;
+  text-decoration: none;
+  font-family: monospace;
+}

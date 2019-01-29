@@ -1,0 +1,27 @@
+.menuSection {
+  margin-bottom: 50px;
+}
+
+.menuItems {
+  display: flex;
+  max-width: 900px;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.menuItems h3 {
+  margin: 0;
+  min-width: 400px;
+  font-family: monospace;
+}
+
+.menuItem {
+  min-width: 400px;
+  max-width: 415px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
