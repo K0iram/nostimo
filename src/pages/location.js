@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -14,7 +13,7 @@ const Location = () => {
         keywords={['find', 'map', 'schedule', 'san diego']}
         description="Find us at multiple locations in San Diego County"
       />
-      <h1 style={{fontFamily: `monospace`}}>Where You Can Find Us 📍</h1>
+      <h1 style={{fontFamily: `monospace`}}>Where You Can Find Us <span role="img" aria-label="pin">📍</span></h1>
       <hr style={{maxWidth: 500, width: `100%`, margin: `0 auto`}}/>
       <div className="schedule" style={{display: `flex`, justifyContent: `center`}}>
         <ul style={{listStyle: `none`, textAlign: `left`, paddingTop: 40}}>

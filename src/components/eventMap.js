@@ -5,8 +5,8 @@ const EventMap = ({location, time, url, width, height}) => {
   return (
     <div className="location">
       {time === ''
-        ? <img src={url} className='closed' style={{width: `500px`}}/>
-        : <iframe src={url} width={width} height={height} frameBorder="0" style={{border: '5px solid #444'}} allowFullScreen></iframe>
+        ? <img src={url} alt="" className='closed' style={{width: `500px`}}/>
+        : <iframe src={url} width={width} height={height} frameBorder="0" style={{border: '5px solid #444'}} allowFullScreen title="eventMap"></iframe>
       }
       <p>{time}</p>
 
